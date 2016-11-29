@@ -1,8 +1,6 @@
 import pytest
-import json
 
 from hamcrest import *
-from datetime import datetime
 from test_context import *
 from stack_fixtures import stack, stack_resources
 
@@ -24,4 +22,4 @@ def test_stack_has_parameter(stack):
     assert_that(stack, has_parameter(with_key('TestParamKey2'), with_value(starts_with('TestParamValue'))))
 
 def test_stack_has_resource(stack_resources):
-    assert_that(stack_resources, has_resource(with_type("AWS::CloudFormation::Stack"), with_logical_id("TestResource122")))
+    assert_that(stack_resources, has_resource(with_type("AWS::CloudFormation::Stack"), with_logical_id("TestResource1")))
