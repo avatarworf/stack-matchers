@@ -1,0 +1,16 @@
+[
+  {
+    "ResourceType": "AWS::CloudFormation::Stack",
+    "PhysicalResourceId": "arn:aws:cloudformation:eu-west-1:1234567890:stack/1234567890/1234567890",
+    "LastUpdatedTimestamp": "2016-11-14T14:30:54.89",
+    "ResourceStatus": "UPDATE_COMPLETE",
+    "LogicalResourceId": "TestResource1"
+  },
+  {
+    "ResourceType": "AWS::CloudFormation::Stack",
+    "PhysicalResourceId": "arn:aws:cloudformation:eu-west-1:1234567890:stack/1234567890/1234567890",
+    "LastUpdatedTimestamp": "2016-11-14T14:30:54.89",
+    "ResourceStatus": "UPDATE_COMPLETE",
+    "LogicalResourceId": "TestResource2"
+  }
+]

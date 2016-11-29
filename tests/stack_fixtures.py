@@ -26,6 +26,10 @@ class DateTimeDecoder(json.JSONDecoder):
 def stack():
     with open('stack_fixture.json') as data_file:    
         data = data_file.read()
-        print data
         return json.loads(data, cls=DateTimeDecoder)
 
+@pytest.fixture
+def stack_resources():
+    with open('stack_resources_fixture.json') as data_file:
+        data = data_file.read()
+        return json.loads(data, cls=DateTimeDecoder)
