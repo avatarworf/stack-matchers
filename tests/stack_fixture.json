@@ -1,0 +1,33 @@
+{
+  "StackId": "arn:aws:cloudformation:eu-west-1:1234567890:stack/TestStack/1234567890",
+  "LastUpdatedTime": "2016-11-14T14:29:00",
+  "Parameters": [
+    {
+      "ParameterValue": "ParamValue1",
+      "ParameterKey": "ParamKey1"
+    },
+    {
+      "ParameterValue": "ParamValue2",
+      "ParameterKey": "ParamKey2"
+    }
+  ],
+  "Tags": [],
+  "Outputs": [
+    {
+      "OutputKey": "TestOutputKey1",
+      "OutputValue": "TestOutputValue1"
+    },
+    {
+      "OutputKey": "TestOutputKey2",
+      "OutputValue": "TestOutputValue2"
+    }
+  ],
+  "CreationTime": "2016-10-20T10:21:51",
+  "Capabilities": [
+    "CAPABILITY_NAMED_IAM"
+  ],
+  "StackName": "TestStack",
+  "NotificationARNs": [],
+  "StackStatus": "UPDATE_COMPLETE",
+  "DisableRollback": false
+}
