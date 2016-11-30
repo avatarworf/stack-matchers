@@ -4,8 +4,11 @@ from hamcrest import *
 from test_context import *
 from stack_fixtures import stack, stack_resources
 
-def test_stack_has_status(stack):
-    assert_that(stack, has_stack_status_in('UPDATE_COMPLETE', 'CREATE_COMPLETE'))
+def test_stack_status(stack):
+    assert_that(stack, has_status(ends_with('_COMPLETE')))
+
+def test_stack_has_status_in(stack):
+    assert_that(stack, has_status_in('UPDATE_COMPLETE', 'CREATE_COMPLETE'))
 
 def test_stack_has_output_with_key(stack):
     assert_that(stack, has_output_with_key('TestOutputKey1'))
