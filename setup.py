@@ -8,4 +8,7 @@ setup(name='stack_matchers',
       author_email='konstructor.cloud@ft.com',
       license='MIT',
       packages=['stack_matchers'],
-      zip_safe=False)
+      zip_safe=False,
+      install_requires=[
+          'pyhamcrest',
+      ])

@@ -1,6 +1,8 @@
 ## Synopsis
 
-This project provides a number of hamcrest matchers that allow testing of cloudformation stacks. Please take a look at [PyHamcrest](https://github.com/hamcrest/PyHamcrest) for documentation of how matchers work.
+This project provides a number of hamcrest matchers that allow testing of cloudformation stacks in Python. 
+
+Please take a look at [PyHamcrest](https://github.com/hamcrest/PyHamcrest) for documentation of how matchers work.
 
 ## Installing the matchers package
 
@@ -12,6 +14,8 @@ The module stack_matchers.matchers provides a number of methods to create matche
 
 ### 1) Import the matcher functions:
 ```
+import pytest
+from hamcrest import *
 from stack_matchers.matchers import *
 ```
 
