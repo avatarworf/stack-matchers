@@ -19,7 +19,7 @@ git+ssh://git@github.com/Financial-Times/stack-matchers
 
 The module stack_matchers.matchers provides a number of methods to create matchers that can verify stack properties. 
 
-### 1) Import the matcher functions:
+### Imports
 ```
 import pytest
 from hamcrest import *
