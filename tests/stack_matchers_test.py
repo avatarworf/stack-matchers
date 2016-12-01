@@ -1,11 +1,15 @@
 import pytest
 
 from hamcrest import *
+from hamcrest.core.core.isequal import equal_to
 from test_context import *
 from stack_fixtures import stack, stack_resources
 
 def test_stack_status(stack):
     assert_that(stack, has_status(ends_with('_COMPLETE')))
+    assert_that(stack, has_status(equal_to('UPDATE_COMPLETE')))
+    assert_that(stack, has_status(ends_with('_COMPLETE')))
+    assert_that(stack, has_status(any_of('UPDATE_COMPLETE', 'CREATE_COMPLETE')))
 
 def test_stack_has_status_in(stack):
     assert_that(stack, has_status_in('UPDATE_COMPLETE', 'CREATE_COMPLETE'))
