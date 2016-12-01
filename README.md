@@ -26,6 +26,30 @@ from hamcrest import *
 from stack_matchers.matchers import *
 ```
 
+### Retrieve a stack using boto
+
+The utility module stack_matchers.boto_helper provides a function get_stack(stack_name) that can be used to create a pytest fixture e.g.
+```
+from stack_matchers.boto_helpers import get_stack
+
+@pytest.fixture
+def stack():
+    return get_stack("FT-Tech-Infra_dev-Account")
+```
+
+### Retrieve stack resources using boto
+
+The utility module stack_matchers.boto_helper provides a function get_stacki_resources(stack_name) that can be used to create a pytest fixture e.g.
+```
+from stack_matchers.boto_helpers import get_stack
+
+@pytest.fixture
+def stack_resources():
+    return get_stack_resources("FT-Tech-Infra_dev-Account")
+```
+
+Note the stack and stack_resources fixtures are used in the stack matcher reference below.
+
 ## Stack Matchers Reference
 
 ### has status
@@ -56,6 +80,8 @@ assert that the stack has created a resource with a cloudformation type and logi
 def test_stack_has_resource(stack_resources):
     assert_that(stack_resources, has_resource("AWS::CloudFormation::Stack", "TestResource1"))
     assert_that(stack_resources, has_resource(with_type("AWS::CloudFormation::Stack"), with_logical_id("TestResource1")))
+
+Note the asserts require the stack_resources fixture rather than the stack fixture
 
 ### has_parameter
 
