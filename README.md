@@ -49,6 +49,14 @@ def test_stack_has_status(stack):
     assert_that(stack, has_status_in('UPDATE_COMPLETE', 'CREATE_COMPLETE'))
 ```
 
+### has_resource
+
+assert that the stack has created a resource with a cloudformation type and logical id
+
+def test_stack_has_resource(stack_resources):
+    assert_that(stack_resources, has_resource("AWS::CloudFormation::Stack", "TestResource1"))
+    assert_that(stack_resources, has_resource(with_type("AWS::CloudFormation::Stack"), with_logical_id("TestResource1")))
+
 ### has_parameter
 
 assert the value of a stack parameter that was used during stack execution 
