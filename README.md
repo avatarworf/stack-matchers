@@ -4,7 +4,7 @@ This project provides a number of hamcrest matchers that allow testing of cloudf
 
 Please take a look at [PyHamcrest](https://github.com/hamcrest/PyHamcrest) for documentation of how matchers work.
 
-## Installing the stack-matchers package
+## Installing stack-matchers
 
 To install manually:
 ```
