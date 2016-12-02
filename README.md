@@ -39,7 +39,7 @@ def stack():
 
 ### Retrieve stack resources using boto
 
-The utility module stack_matchers.boto_helper provides a function get_stacki_resources(stack_name) that can be used to create a pytest fixture e.g.
+The utility module stack_matchers.boto_helper provides a function get_stack_resources(stack_name) that can be used to create a pytest fixture e.g.
 ```
 from stack_matchers.boto_helper import get_stack_resources
 
