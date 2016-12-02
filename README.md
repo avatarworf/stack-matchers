@@ -107,7 +107,7 @@ def test_stack_has_parameter_with_key(stack):
 
 ### has_output
 
-assert that the value of a stack output
+assert the value of a stack output
 
 ```
 def test_stack_has_output(stack):
