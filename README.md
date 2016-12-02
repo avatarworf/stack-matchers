@@ -77,9 +77,11 @@ def test_stack_has_status(stack):
 
 assert that the stack has created a resource with a cloudformation type and logical id
 
+```
 def test_stack_has_resource(stack_resources):
     assert_that(stack_resources, has_resource("AWS::CloudFormation::Stack", "TestResource1"))
     assert_that(stack_resources, has_resource(with_type("AWS::CloudFormation::Stack"), with_logical_id("TestResource1")))
+```
 
 Note the asserts require the stack_resources fixture rather than the stack fixture
 
