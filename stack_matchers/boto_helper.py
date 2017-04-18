@@ -1,10 +1,12 @@
 import boto3
 
+
 class StackNotFoundError(Exception):
     pass
 
-def get_stack(stack_name):
-    client = boto3.client('cloudformation')
+
+def get_stack(stack_name, boto_session=boto3.session.Session()):
+    client = boto_session.client('cloudformation')
 
     response = client.describe_stacks(
         StackName=stack_name
@@ -18,8 +20,9 @@ def get_stack(stack_name):
 
     return None
 
-def get_stack_resources(stack_name):
-    client = boto3.client('cloudformation')
+
+def get_stack_resources(stack_name, boto_session=boto3.session.Session()):
+    client = boto_session.client('cloudformation')
 
     response = client.list_stack_resources(
         StackName=stack_name
@@ -40,6 +43,7 @@ def get_stack_resources(stack_name):
         full_list.extend(response['StackResourceSummaries'])
 
     return full_list
+
 
 def is_empty(list):
     return not list
