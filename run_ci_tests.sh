@@ -16,9 +16,7 @@ curl -s https://bootstrap.pypa.io/get-pip.py > get-pip.py
 python get-pip.py
 
 pip install -r requirements.txt
-pip install coverage
-pip install git+ssh://git@github.com/Financial-Times/stack-matchers.git@master#egg=stack-matchers
-pip install pytest-mock>=1.6.0
+pip install -r requirements-test.txt
 
 coverage run \
     --source stack_matchers \
