@@ -27,7 +27,7 @@ def get_stack(stack_name, boto_session=boto3.session.Session()):
 
 
 def get_stack_resources(stack_name, boto_session=boto3.session.Session()):
-    """Get the stack's lsit of resources."""
+    """Get the stack's list of resources."""
     client = boto_session.client('cloudformation')
 
     response = client.list_stack_resources(
