@@ -1,11 +1,16 @@
+"""Additional functions to get extra cloudformation stack details."""
+
 import boto3
 
 
 class StackNotFoundError(Exception):
+    """Error class when a stack is not found."""
+
     pass
 
 
 def get_stack(stack_name, boto_session=boto3.session.Session()):
+    """Get the stack description."""
     client = boto_session.client('cloudformation')
 
     response = client.describe_stacks(
@@ -22,6 +27,7 @@ def get_stack(stack_name, boto_session=boto3.session.Session()):
 
 
 def get_stack_resources(stack_name, boto_session=boto3.session.Session()):
+    """Get the stack's lsit of resources."""
     client = boto_session.client('cloudformation')
 
     response = client.list_stack_resources(
@@ -46,4 +52,5 @@ def get_stack_resources(stack_name, boto_session=boto3.session.Session()):
 
 
 def is_empty(list):
+    """Determine if empty."""
     return not list
