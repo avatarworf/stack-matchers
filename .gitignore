@@ -3,4 +3,7 @@ venv
 *.pyc
 .cache
 .idea
-
+.coverage
+.pytest_cache/
+tests.xml
+tools-ci-pytest.xml
