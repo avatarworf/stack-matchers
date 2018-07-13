@@ -1,4 +1,3 @@
 pytest
 pytest-mock
 coverage
-git+ssh://git@github.com/Financial-Times/stack-matchers.git@master#egg=stack-matchers
