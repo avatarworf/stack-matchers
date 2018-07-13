@@ -25,4 +25,4 @@ coverage run \
     tests
 coverage html \
     --omit '*cli.py','*__init__.py' \
-    --fail-under 90
+    --fail-under 60
