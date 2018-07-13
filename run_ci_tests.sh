@@ -18,7 +18,7 @@ python get-pip.py
 pip install -r requirements.txt
 
 coverage run \
-    --source aws_composer_tools \
+    --source stack_matchers \
     -m pytest \
     --junitxml=tools-ci-pytest.xml \
     tests
