@@ -22,12 +22,12 @@ pip install \
 
 composer run-tests tests --coverage --cov_dir stack-matchers
 
-coverage run \
-    --source stack_matchers \
-    -m pytest \
-    --junitxml=tools-ci-pytest.xml \
-    tests
+#coverage run \
+#    --source stack_matchers \
+#    -m pytest \
+#    --junitxml=tools-ci-pytest.xml \
+#    tests
 
-coverage html \
-    --omit '*cli.py','*__init__.py' \
-    --fail-under 60
+#coverage html \
+#    --omit '*cli.py','*__init__.py' \
+#    --fail-under 60
