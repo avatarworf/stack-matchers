@@ -2,7 +2,6 @@ import pytest
 
 from hamcrest import *
 from hamcrest.core.core.isequal import equal_to
-from test_context import *
 from stack_fixtures import stack, stack_resources
 
 def test_stack_status(stack):
