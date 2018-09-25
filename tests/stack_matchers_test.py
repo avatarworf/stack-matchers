@@ -2,7 +2,8 @@ import pytest
 
 from hamcrest import *
 from hamcrest.core.core.isequal import equal_to
-from stack_fixtures import stack, stack_resources
+from .test_context import *
+from .stack_fixtures import stack, stack_resources
 
 def test_stack_status(stack):
     assert_that(stack, has_status(ends_with('_COMPLETE')))
