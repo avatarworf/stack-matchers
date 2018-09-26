@@ -10,5 +10,7 @@ setup(name='stack_matchers',
       packages=['stack_matchers'],
       zip_safe=False,
       install_requires=[
-          'pyhamcrest',
+          'PyHamcrest==1.9.0',
+          'boto3==1.6.16',
+          'botocore==1.9.16'
       ])

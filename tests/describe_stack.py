@@ -5,7 +5,7 @@ import pytest
 import json
 from hamcrest import *
 from datetime import datetime
-from test_context import *
+from .test_context import *
 from stack_matchers.boto_helper import *
 
 

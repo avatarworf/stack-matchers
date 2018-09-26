@@ -2,27 +2,23 @@
 
 # this is used by the aws-composer-tools pipeline to test / check coverage
 
-set -xe
+set -e
 
 if [ -d venv ]; then
     rm -rf venv
 fi
 
-virtualenv venv
+virtualenv -p python3.6 venv >/dev/null 2>&1
+# shellcheck disable=1091
 source venv/bin/activate
-set -xe
 
-curl -s https://bootstrap.pypa.io/get-pip.py > get-pip.py
-python get-pip.py
+pip install --upgrade pip==10.0.1
+pip install \
+        -U \
+        -e \
+        "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@${composer_commit}#egg=aws_composer_general" \
+        "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@${composer_commit}#egg=aws_composer_general[testing]" \
+        --process-dependency-links
 
-pip install -r requirements.txt
-pip install -r requirements-test.txt
-
-coverage run \
-    --source stack_matchers \
-    -m pytest \
-    --junitxml=tools-ci-pytest.xml \
-    tests
-coverage html \
-    --omit '*cli.py','*__init__.py' \
-    --fail-under 60
+composer run-tests --coverage --cov_dir stack-matchers tests
+xmllint --format tests.xml --output tests.linted.xml && mv tests.linted.xml tests.xml
