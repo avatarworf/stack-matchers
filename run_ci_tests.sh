@@ -16,8 +16,8 @@ pip install --upgrade pip==10.0.1
 pip install \
         -U \
         -e \
-        "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@${composer_commit}#egg=aws_composer_general" \
         "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@${composer_commit}#egg=aws_composer_general[testing]" \
+        -r requirements.txt \
         --process-dependency-links
 
 composer run-tests --coverage --cov_dir stack-matchers tests
