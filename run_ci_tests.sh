@@ -20,5 +20,5 @@ pip install \
         -r requirements.txt \
         --process-dependency-links
 
-composer run-tests --coverage --cov_dir stack-matchers tests
+composer run-tests --coverage --cov_dir stack_matchers tests
 xmllint --format tests.xml --output tests.linted.xml && mv tests.linted.xml tests.xml
