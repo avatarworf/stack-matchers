@@ -1,11 +1,17 @@
-# Change Log created on 2018-10-23
+# Change Log created on 2018-10-24
+
+### 2018-10-24
+  * read correct file
+  * replace ms -> rst for README
+  * remove file not required
 
 ### 2018-10-23
+  * Version [0.0.3](../../releases/tag/0.0.3)
   * refactor python package creation to push version to nexus
-  * correct dir
-  * correct pip install
 
 ### 2018-10-08
+  * correct dir
+  * correct pip install
   * correction to pulling in context
   * remove import
   * update license
@@ -19,19 +25,19 @@
   * Add license details
 
 ### 2018-07-24
-  * stack matcher not required here
-  * for now 60% coverage ok
 
 ### 2018-07-13
+  * stack matcher not required here
+  * for now 60% coverage ok
   * place test requirements into different file, plus typo correction
   * add coverage
   * correction
   * add GoCD pipeline test
   * typo
   * PEP8 a bit ; mostly adding docstrings plus change the way the include within matchers.py works. currently in GOCD there is this error:
-  * update team info and bump to 0.0.2
 
 ### 2017-04-24
+  * update team info and bump to 0.0.2
   * add optional boto_session argument to allow for use of assumed role sessions
 
 ### 2017-04-18
@@ -59,12 +65,10 @@
   * Added matcher variants for stack status
 
 ### 2016-12-01
-  * Updated stack_status_matcher to accept other matchers
-  * Moved stack_matchers module to root, and removed src directory
 
 ### 2016-11-30
+  * Updated stack_status_matcher to accept other matchers
+  * Moved stack_matchers module to root, and removed src directory
   * Fixed broken test
   * Added matcher for stack resources
   * Added matcher for stack parameters
-  * Added instructions for running unit tests
-  * Initial version with matchers for stack status and stack outputs
