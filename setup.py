@@ -15,6 +15,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     zip_safe=False,
     install_requires=['PyHamcrest==1.9.0',
-                      'boto3==1.6.16',
-                      'botocore==1.9.16']
+                      'boto3==1.9.13',
+                      'botocore==1.12.13']
 )
