@@ -1,6 +1,7 @@
 # Change Log created on 2018-12-07
 
 ### 2018-12-07
+  * Version [0.0.5](../../releases/tag/0.0.5)
   * bump botocore and boto3 for moto dep
 
 ### 2018-10-24
