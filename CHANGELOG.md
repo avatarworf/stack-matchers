@@ -1,6 +1,10 @@
-# Change Log created on 2018-10-24
+# Change Log created on 2018-12-07
+
+### 2018-12-07
+  * bump botocore and boto3 for moto dep
 
 ### 2018-10-24
+  * Version [0.0.4](../../releases/tag/0.0.4)
   * read correct file
   * replace ms -> rst for README
   * remove file not required
@@ -71,4 +75,3 @@
   * Moved stack_matchers module to root, and removed src directory
   * Fixed broken test
   * Added matcher for stack resources
-  * Added matcher for stack parameters
