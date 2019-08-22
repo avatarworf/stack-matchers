@@ -1,12 +1,13 @@
-# Change Log created on 2018-12-07
-
-### 2018-12-07
+# Change Log created on 2019-08-22
+  * Version [0.0.7](../../releases/tag/0.0.7)
   * Version [0.0.6](../../releases/tag/0.0.6)
   * Version [0.0.5](../../releases/tag/0.0.5)
   * bump botocore and boto3 for moto dep
 
-### 2018-10-24
+### 2018-12-07
   * Version [0.0.4](../../releases/tag/0.0.4)
+
+### 2018-10-24
   * read correct file
   * replace ms -> rst for README
   * remove file not required
@@ -14,10 +15,10 @@
 ### 2018-10-23
   * Version [0.0.3](../../releases/tag/0.0.3)
   * refactor python package creation to push version to nexus
-
-### 2018-10-08
   * correct dir
   * correct pip install
+
+### 2018-10-08
   * correction to pulling in context
   * remove import
   * update license
@@ -71,9 +72,12 @@
   * Added matcher variants for stack status
 
 ### 2016-12-01
+  * Updated stack_status_matcher to accept other matchers
 
 ### 2016-11-30
-  * Updated stack_status_matcher to accept other matchers
   * Moved stack_matchers module to root, and removed src directory
   * Fixed broken test
   * Added matcher for stack resources
+  * Added matcher for stack parameters
+  * Added instructions for running unit tests
+  * Initial version with matchers for stack status and stack outputs
