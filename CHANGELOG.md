@@ -1,4 +1,10 @@
-# Change Log created on 2019-08-22
+# Change Log created on 2019-08-28
+
+### 2019-08-28
+  * bump boto/botocore to latest version
+
+### 2019-08-22
+  * Version [0.0.8](../../releases/tag/0.0.8)
   * Version [0.0.7](../../releases/tag/0.0.7)
   * Version [0.0.6](../../releases/tag/0.0.6)
   * Version [0.0.5](../../releases/tag/0.0.5)
@@ -72,9 +78,9 @@
   * Added matcher variants for stack status
 
 ### 2016-12-01
-  * Updated stack_status_matcher to accept other matchers
 
 ### 2016-11-30
+  * Updated stack_status_matcher to accept other matchers
   * Moved stack_matchers module to root, and removed src directory
   * Fixed broken test
   * Added matcher for stack resources
