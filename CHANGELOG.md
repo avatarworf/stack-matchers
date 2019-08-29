@@ -1,19 +1,20 @@
-# Change Log created on 2019-08-28
+# Change Log created on 2019-08-29
 
 ### 2019-08-28
+  * Version [0.0.9](../../releases/tag/0.0.9)
   * bump boto/botocore to latest version
 
 ### 2019-08-22
   * Version [0.0.8](../../releases/tag/0.0.8)
+
+### 2018-12-07
   * Version [0.0.7](../../releases/tag/0.0.7)
   * Version [0.0.6](../../releases/tag/0.0.6)
   * Version [0.0.5](../../releases/tag/0.0.5)
   * bump botocore and boto3 for moto dep
 
-### 2018-12-07
-  * Version [0.0.4](../../releases/tag/0.0.4)
-
 ### 2018-10-24
+  * Version [0.0.4](../../releases/tag/0.0.4)
   * read correct file
   * replace ms -> rst for README
   * remove file not required
@@ -21,20 +22,20 @@
 ### 2018-10-23
   * Version [0.0.3](../../releases/tag/0.0.3)
   * refactor python package creation to push version to nexus
-  * correct dir
-  * correct pip install
 
 ### 2018-10-08
+  * correct dir
+  * correct pip install
   * correction to pulling in context
+
+### 2018-09-25
   * remove import
   * update license
   * update supporting files
 
-### 2018-09-25
+### 2018-09-21
   * updates
   * updated to use aws-composer-general package
-
-### 2018-09-21
   * Add license details
 
 ### 2018-07-24
@@ -72,18 +73,14 @@
   * Tweak heading
   * Added pip installation commands for stack-matchers module
   * Updates to make module usable from another project
+
+### 2016-12-01
   * Adding setup.py
   * Added code block formatting
   * Added details for matchers
   * Added matcher variants for stack status
 
-### 2016-12-01
-
 ### 2016-11-30
   * Updated stack_status_matcher to accept other matchers
   * Moved stack_matchers module to root, and removed src directory
   * Fixed broken test
-  * Added matcher for stack resources
-  * Added matcher for stack parameters
-  * Added instructions for running unit tests
-  * Initial version with matchers for stack status and stack outputs
