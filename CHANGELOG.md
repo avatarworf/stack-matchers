@@ -1,4 +1,7 @@
-# Change Log created on 2019-08-29
+# Change Log created on 2019-09-06
+  * Version [0.1.0](../../releases/tag/0.1.0)
+
+### 2019-08-29
 
 ### 2019-08-28
   * Version [0.0.9](../../releases/tag/0.0.9)
@@ -32,9 +35,10 @@
   * remove import
   * update license
   * update supporting files
+  * updates
+  * updated to use aws-composer-general package
 
 ### 2018-09-21
-  * updates
   * updated to use aws-composer-general package
   * Add license details
 
