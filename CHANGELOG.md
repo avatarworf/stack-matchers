@@ -1,6 +1,8 @@
 # Change Log created on 2020-01-10
 
 ### 2020-01-10
+  * Update __init__.py
+  * Version [0.1.2](../../releases/tag/0.1.2)
   * Update boto/botocore version
   * Version [0.1.1](../../releases/tag/0.1.1)
 
@@ -18,9 +20,9 @@
   * Version [0.0.7](../../releases/tag/0.0.7)
   * Version [0.0.6](../../releases/tag/0.0.6)
   * Version [0.0.5](../../releases/tag/0.0.5)
-  * bump botocore and boto3 for moto dep
 
 ### 2018-12-07
+  * bump botocore and boto3 for moto dep
   * Version [0.0.4](../../releases/tag/0.0.4)
 
 ### 2018-10-24
@@ -31,10 +33,10 @@
 ### 2018-10-23
   * Version [0.0.3](../../releases/tag/0.0.3)
   * refactor python package creation to push version to nexus
-  * correct dir
-  * correct pip install
 
 ### 2018-10-08
+  * correct dir
+  * correct pip install
   * correction to pulling in context
   * remove import
   * update license
@@ -95,5 +97,3 @@
   * Fixed broken test
   * Added matcher for stack resources
   * Added matcher for stack parameters
-  * Added instructions for running unit tests
-  * Initial version with matchers for stack status and stack outputs
