@@ -9,10 +9,10 @@ __title__ = "stack_matchers"
 __summary__ = "A matcher library for CloudFormation stack assertions"
 __uri__ = "https://github.com/Financial-Times/stack-matchers"
 
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 
 __author__ = "Financial Times - Cloud Enablement Team"
 __email__ = "cloud.enablement@ft.com"
 
 __license__ = "MIT License"
-__copyright__ = "Copyright 2018"
+__copyright__ = "Copyright 2020"
