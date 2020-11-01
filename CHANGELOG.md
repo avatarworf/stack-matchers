@@ -1,4 +1,8 @@
-# Change Log created on 2020-01-10
+# Change Log created on 2020-11-01
+
+### 2020-11-01
+  * Bump boto dependancies for Sceptre2 work
+  * Version [0.2.1](../../releases/tag/0.2.1)
 
 ### 2020-01-10
   * Update __init__.py
