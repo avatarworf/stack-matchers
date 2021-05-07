@@ -1,7 +1,8 @@
-# Change Log created on 2021-02-09
+# Change Log created on 2021-05-07
+  * Version [0.3.2](../../releases/tag/0.3.2)
+  * [Skip CI] Automatically creating CODEOWNERS file
 
 ### 2021-02-09
-  * [Skip CI] Automatically creating CODEOWNERS file
 
 ### 2020-11-01
   * Version [0.3.1](../../releases/tag/0.3.1)
@@ -15,9 +16,9 @@
 
 ### 2019-09-06
   * Version [0.1.1](../../releases/tag/0.1.1)
+  * Version [0.1.0](../../releases/tag/0.1.0)
 
 ### 2019-08-29
-  * Version [0.1.0](../../releases/tag/0.1.0)
 
 ### 2019-08-28
   * Version [0.0.9](../../releases/tag/0.0.9)
@@ -45,9 +46,9 @@
 ### 2018-10-08
   * correct dir
   * correct pip install
+  * correction to pulling in context
 
 ### 2018-09-25
-  * correction to pulling in context
   * remove import
   * update license
   * update supporting files
@@ -55,9 +56,9 @@
 ### 2018-09-21
   * updates
   * updated to use aws-composer-general package
+  * Add license details
 
 ### 2018-07-24
-  * Add license details
 
 ### 2018-07-13
   * stack matcher not required here
@@ -71,19 +72,17 @@
 
 ### 2017-04-24
   * update team info and bump to 0.0.2
-
-### 2017-04-18
   * add optional boto_session argument to allow for use of assumed role sessions
 
-### 2017-03-10
+### 2017-04-18
   * Updates boto helper to deal with list_resource_stacks results that are paginated
+
+### 2017-03-10
 
 ### 2016-12-02
   * Fixed grammar
   * Added code block around get_resource example
   * Fixed typo
-
-### 2016-12-01
   * Fixed import in doco
   * Fixed import in doco
   * Added details of stack and stack_resources fixtures
@@ -94,6 +93,8 @@
   * Tweak heading
   * Added pip installation commands for stack-matchers module
   * Updates to make module usable from another project
+
+### 2016-12-01
   * Adding setup.py
   * Added code block formatting
   * Added details for matchers
@@ -102,3 +103,4 @@
 ### 2016-11-30
   * Updated stack_status_matcher to accept other matchers
   * Moved stack_matchers module to root, and removed src directory
+  * Fixed broken test
