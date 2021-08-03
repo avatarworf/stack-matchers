@@ -1,6 +1,10 @@
-# Change Log created on 2021-05-17
+# Change Log created on 2021-08-03
+
+### 2021-08-03
+  * Relax dependency versions
 
 ### 2021-05-17
+  * Version [0.3.3](../../releases/tag/0.3.3)
   * Version [0.3.3](../../releases/tag/0.3.3)
 
 ### 2021-05-07
@@ -62,9 +66,9 @@
 ### 2018-09-21
   * updates
   * updated to use aws-composer-general package
-  * Add license details
 
 ### 2018-07-24
+  * Add license details
 
 ### 2018-07-13
   * stack matcher not required here
@@ -94,13 +98,13 @@
   * Added details of stack and stack_resources fixtures
   * Added boto3 dependency for boto_helper module
   * Added a simple helper functions for retrieval of a stack and stack resources using boto
+
+### 2016-12-01
   * Add doco for has_resource matcher
   * Tweak heading
   * Tweak heading
   * Added pip installation commands for stack-matchers module
   * Updates to make module usable from another project
-
-### 2016-12-01
   * Adding setup.py
   * Added code block formatting
   * Added details for matchers
