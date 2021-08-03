@@ -1,6 +1,8 @@
 # Change Log created on 2021-08-03
 
 ### 2021-08-03
+  * Bump version
+  * Version [0.3.3](../../releases/tag/0.3.3)
   * Relax dependency versions
 
 ### 2021-05-17
