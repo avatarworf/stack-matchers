@@ -1,6 +1,8 @@
 # Change Log created on 2021-08-03
 
 ### 2021-08-03
+  * Bump version attempt 2
+  * Version [0.3.3](../../releases/tag/0.3.3)
   * Bump version
   * Version [0.3.3](../../releases/tag/0.3.3)
   * Relax dependency versions
@@ -97,11 +99,11 @@
   * Fixed typo
   * Fixed import in doco
   * Fixed import in doco
+
+### 2016-12-01
   * Added details of stack and stack_resources fixtures
   * Added boto3 dependency for boto_helper module
   * Added a simple helper functions for retrieval of a stack and stack resources using boto
-
-### 2016-12-01
   * Add doco for has_resource matcher
   * Tweak heading
   * Tweak heading
