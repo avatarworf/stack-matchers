@@ -1,4 +1,7 @@
 # Change Log created on 2021-08-04
+
+### 2021-08-04
+  * Version [0.3.3](../../releases/tag/0.3.3)
   * Version [0.3.3](../../releases/tag/0.3.3)
   * Bump version attempt 2
   * Version [0.3.3](../../releases/tag/0.3.3)
