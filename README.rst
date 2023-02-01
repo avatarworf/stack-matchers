@@ -170,7 +170,7 @@ following commands from the root of the project:
 
    mkvirtualenv --python=$(command -v python3.6) temp_venv
    pip install -U -e \
-       "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@master#egg=aws_composer_general[python_release]" \
+       "git+ssh://git@github.com/Financial-Times/aws-composer-pipeline-scripts-general.git@main#egg=aws_composer_general[python_release]" \
        -r requirements.txt \
        --process-dependency-links
    export AWS_DEFAULT_REGION=eu-west-1
