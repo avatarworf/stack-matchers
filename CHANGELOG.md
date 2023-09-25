@@ -1,6 +1,7 @@
 # Change Log created on 2023-09-25
 
 ### 2023-09-25
+  * Version [0.3.8](../../releases/tag/0.3.8)
   * Version [0.3.7](../../releases/tag/0.3.7)
   * Test publishing to CloudSmith
 
