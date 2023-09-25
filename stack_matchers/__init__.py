@@ -15,4 +15,4 @@ __author__ = "Financial Times - Cloud Enablement Team"
 __email__ = "cloud.enablement@ft.com"
 
 __license__ = "MIT License"
-__copyright__ = "Copyright 2020"
+__copyright__ = "Copyright 2023"
