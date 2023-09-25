@@ -1,22 +1,23 @@
 # Change Log created on 2023-09-25
 
 ### 2023-09-25
+  * Version [0.3.7](../../releases/tag/0.3.7)
   * Test publishing to CloudSmith
 
 ### 2023-02-01
   * Version [0.3.6](../../releases/tag/0.3.6)
   * Update Branch name
-  * Version [0.3.5](../../releases/tag/0.3.5)
-  * Downgrade minimum version to align with other ce projects
 
 ### 2021-08-04
+  * Version [0.3.5](../../releases/tag/0.3.5)
+  * Downgrade minimum version to align with other ce projects
   * Version [0.3.4](../../releases/tag/0.3.4)
-  * Version [0.3.3](../../releases/tag/0.3.3)
-  * Version [0.3.3](../../releases/tag/0.3.3)
-  * Bump version attempt 2
   * Version [0.3.3](../../releases/tag/0.3.3)
 
 ### 2021-08-03
+  * Version [0.3.3](../../releases/tag/0.3.3)
+  * Bump version attempt 2
+  * Version [0.3.3](../../releases/tag/0.3.3)
   * Bump version
   * Version [0.3.3](../../releases/tag/0.3.3)
   * Relax dependency versions
@@ -100,24 +101,24 @@
 
 ### 2017-04-24
   * update team info and bump to 0.0.2
-  * add optional boto_session argument to allow for use of assumed role sessions
 
 ### 2017-04-18
-  * Updates boto helper to deal with list_resource_stacks results that are paginated
+  * add optional boto_session argument to allow for use of assumed role sessions
 
 ### 2017-03-10
+  * Updates boto helper to deal with list_resource_stacks results that are paginated
 
 ### 2016-12-02
   * Fixed grammar
   * Added code block around get_resource example
   * Fixed typo
+
+### 2016-12-01
   * Fixed import in doco
   * Fixed import in doco
   * Added details of stack and stack_resources fixtures
   * Added boto3 dependency for boto_helper module
   * Added a simple helper functions for retrieval of a stack and stack resources using boto
-
-### 2016-12-01
   * Add doco for has_resource matcher
   * Tweak heading
   * Tweak heading
@@ -131,4 +132,3 @@
 ### 2016-11-30
   * Updated stack_status_matcher to accept other matchers
   * Moved stack_matchers module to root, and removed src directory
-  * Fixed broken test
