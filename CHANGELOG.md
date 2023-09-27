@@ -1,6 +1,7 @@
 # Change Log created on 2023-09-27
 
 ### 2023-09-27
+  * Version [0.3.11](../../releases/tag/0.3.11)
   * Version [0.3.10](../../releases/tag/0.3.10)
   * Version [0.3.9](../../releases/tag/0.3.9)
   * Version [0.3.8](../../releases/tag/0.3.8)
@@ -43,9 +44,9 @@
 ### 2020-11-01
   * Version [0.2.1](../../releases/tag/0.2.1)
   * Update __init__.py
-  * Version [0.1.2](../../releases/tag/0.1.2)
 
 ### 2020-01-10
+  * Version [0.1.2](../../releases/tag/0.1.2)
   * Update boto/botocore version
   * Version [0.1.1](../../releases/tag/0.1.1)
 
@@ -53,9 +54,9 @@
   * Version [0.1.0](../../releases/tag/0.1.0)
 
 ### 2019-08-29
-  * Version [0.0.9](../../releases/tag/0.0.9)
 
 ### 2019-08-28
+  * Version [0.0.9](../../releases/tag/0.0.9)
   * bump boto/botocore to latest version
 
 ### 2019-08-22
@@ -63,9 +64,9 @@
   * Version [0.0.7](../../releases/tag/0.0.7)
   * Version [0.0.6](../../releases/tag/0.0.6)
   * Version [0.0.5](../../releases/tag/0.0.5)
-  * bump botocore and boto3 for moto dep
 
 ### 2018-12-07
+  * bump botocore and boto3 for moto dep
   * Version [0.0.4](../../releases/tag/0.0.4)
 
 ### 2018-10-24
@@ -76,10 +77,10 @@
 ### 2018-10-23
   * Version [0.0.3](../../releases/tag/0.0.3)
   * refactor python package creation to push version to nexus
-  * correct dir
-  * correct pip install
 
 ### 2018-10-08
+  * correct dir
+  * correct pip install
   * correction to pulling in context
   * remove import
   * update license
