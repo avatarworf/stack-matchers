@@ -1,6 +1,7 @@
 # Change Log created on 2023-09-27
 
 ### 2023-09-27
+  * Version [0.3.12](../../releases/tag/0.3.12)
   * Version [0.3.11](../../releases/tag/0.3.11)
   * Version [0.3.10](../../releases/tag/0.3.10)
   * Version [0.3.9](../../releases/tag/0.3.9)
@@ -38,14 +39,14 @@
   * [Skip CI] Automatically creating CODEOWNERS file
 
 ### 2021-02-09
-  * Version [0.3.1](../../releases/tag/0.3.1)
-  * Bump boto dependancies for Sceptre2 work
 
 ### 2020-11-01
+  * Version [0.3.1](../../releases/tag/0.3.1)
+  * Bump boto dependancies for Sceptre2 work
   * Version [0.2.1](../../releases/tag/0.2.1)
-  * Update __init__.py
 
 ### 2020-01-10
+  * Update __init__.py
   * Version [0.1.2](../../releases/tag/0.1.2)
   * Update boto/botocore version
   * Version [0.1.1](../../releases/tag/0.1.1)
@@ -141,5 +142,3 @@
   * Fixed broken test
   * Added matcher for stack resources
   * Added matcher for stack parameters
-  * Added instructions for running unit tests
-  * Initial version with matchers for stack status and stack outputs
